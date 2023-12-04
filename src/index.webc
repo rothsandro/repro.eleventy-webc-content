@@ -1,0 +1,7 @@
+---
+layout: base
+---
+
+<div webc:for="post of collections.posts">
+  <div @raw="post.content"></div>
+</div>

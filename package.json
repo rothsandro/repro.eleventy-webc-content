@@ -1,0 +1,21 @@
+{
+  "name": "repro.eleventy-webc-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "rimraf _site",
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.1"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
